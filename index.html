@@ -14,13 +14,14 @@
         <form action="">
             <label for="">Enter amount</label>
             <input type="number" id="amountEntered">
-            <label for="currency">Select currency</label>
-            <select name="" id="currency">
-                <option value="">House</option>
+            <label for="currency">Select currency (from)</label>
+            <select name="currency" id="currency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
             </select>
-            <label for="crypto">Select Cryptocurrency</label>
-            <select name="" id="">
-                <option value="BTC">BTC</option>
+            <label for="crypto">Select cryptocurrency (to)</label>
+            <select name="crypto" id="cryptoOptions">
+              
             </select>
 
             <div id="result"></div>
@@ -29,9 +30,9 @@
     
     </div>
 </div>
-    <script>
-    
-    </script>
+    <script src="js/cryptoAPI.js">
+        </script>
+  
     <script src="js/custom.js"></script>
 </body>
 </html>

@@ -64,11 +64,24 @@ label {
     margin: 2rem auto;
     background-color: #D05300;
     color: #FFF;
-    font:  bold 1.25rem AvenirNext;
+    cursor: pointer;
+    font:  500 1.25rem AvenirNext;
+    transition: all .5s;
+}
+#convert:hover {
+    background-color:  rgb(252, 101, 0);
 }
 p { font-family: AvenirNext;
     font-size: 1rem; }
 label { display: block; }
 .full-block h1 {
     text-align: center;
+}
+
+#result p {
+    padding: 1rem 0rem 0rem 0rem;
+    text-align: center;
+}
+#result span {
+    color: red;
 }
